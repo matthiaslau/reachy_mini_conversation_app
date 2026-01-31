@@ -48,6 +48,9 @@ yolo_vision = [
 mediapipe_vision = [
   "mediapipe==0.10.14",
 ]
+search_engine = [
+  "ddgs >= 9.9.3",
+]
 all_vision = [
   "torch>=2.1",
   "transformers==5.0.0rc2",
