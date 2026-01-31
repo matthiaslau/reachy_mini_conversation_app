@@ -29,6 +29,9 @@ dependencies = [
     "reachy-mini >= 1.2.11",
     "eclipse-zenoh~=1.7.0",
     "gradio_client>=1.13.3",
+
+    #Web search
+    "ddgs>=9.9.3",
 ]
 
 [project.optional-dependencies]
@@ -47,9 +50,6 @@ yolo_vision = [
 ]
 mediapipe_vision = [
   "mediapipe==0.10.14",
-]
-search_engine = [
-  "ddgs >= 9.9.3",
 ]
 all_vision = [
   "torch>=2.1",
